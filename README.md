@@ -1,67 +1,64 @@
-# Google Play Store Reviews Dataset Sample
+# Google Play 商店评价数据集样本
 
-<h2>A sample dataset of 4,123 records</h2>
+<h2>包含 4,123 条记录的数据集样本</h2>
 
-<a href="https://brightdata.com">
-    <img src="https://github.com/luminati-io/Google-Play-Store-reviews-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
+<a href="https://www.bright.cn/">
+    <img src="https://github.com/luminati-io/Google-Play-Store-reviews-dataset-samples/blob/main/datasets-image.png" alt="Bright Data 数据集" />
 </a>
 
-This **Google Play Store Reviews Dataset Sample** includes **4,123 records** and was extracted using the **Bright Data API**.
+此 **Google Play 商店评价数据集样本**包含 **4,123 条记录**，通过 **Bright Data API** 提取。
 
-## Data Points
+## 数据字段
 
-| Field Name | Description |
+| 字段名 | 说明 |
 |------------|-------------|
-| `url` | The URL of the specific app or content reviewed on the Google Play Store. |
-| `review_id` | A unique identifier for each review, useful for tracking and analysis. |
-| `reviewer_name` | The name of the individual who provided the review. |
-| `review_date` | The timestamp indicating when the review was posted. |
-| `review_rating` | The rating score given by the reviewer, typically on a scale of 1 to 5. |
-| `review` | The text content of the review, providing feedback and opinions. |
-| `found_helpful` | The number of users who found the review helpful. |
-| `app_url` | The URL of the app on the Google Play Store associated with the review. |
-| `app_title` | The name or title of the app being reviewed. |
-| `app_developer` | The name of the developer or company that created the app. |
-| `app_monetization_features` | Details on monetization features like in-app purchases or subscriptions. |
-| `app_images` | Links to promotional images or screenshots of the app. |
-| `app_rating` | The average rating of the app based on all user reviews. |
-| `app_number_of_reviews` | The total number of reviews received by the app. |
-| `app_what_new` | Information on the latest updates or changes in the app. |
-| `app_content_rating` | The content rating indicating appropriate age group for the app. |
-| `app_downloads` | The estimated number of times the app has been downloaded. |
-| `app_play_on_pc` | Information on whether the app is available to play on PC. |
-| `app_minimum_requirements` | The minimum system requirements needed to run the app. |
-| `app_country` | The country from which the review was posted or the app is available. |
-| `num_of_reviews` | The specific number of reviews, matching 'app_number_of_reviews'. |
+| `url` | Google Play 商店中被评价的具体应用或内容的 URL。 |
+| `review_id` | 每条评价的唯一标识符，可用于追踪和分析。 |
+| `reviewer_name` | 评价者的姓名或显示名称。 |
+| `review_date` | 评价发布的时间戳。 |
+| `review_rating` | 评价者给出的评分，通常为 1 至 5 分。 |
+| `review` | 评价的文字内容，包含用户反馈和意见。 |
+| `found_helpful` | 认为该评价有帮助的用户数量。 |
+| `app_url` | 与该评价关联的应用在 Google Play 商店中的 URL。 |
+| `app_title` | 被评价应用的名称。 |
+| `app_developer` | 创建该应用的开发者或公司名称。 |
+| `app_monetization_features` | 应用内购买或订阅等变现功能的详细信息。 |
+| `app_images` | 应用宣传图片或屏幕截图的链接。 |
+| `app_rating` | 根据所有用户评价计算的应用平均评分。 |
+| `app_number_of_reviews` | 应用收到的评价总数。 |
+| `app_what_new` | 应用最新更新或变更的信息。 |
+| `app_content_rating` | 应用的内容分级，表明适合使用的年龄群体。 |
+| `app_downloads` | 应用的预估下载次数。 |
+| `app_play_on_pc` | 应用是否可在 PC 上运行的信息。 |
+| `app_minimum_requirements` | 运行应用所需的最低系统要求。 |
+| `app_country` | 发布评价的国家，或应用上架的国家。 |
+| `num_of_reviews` | 评价数量，与 `app_number_of_reviews` 对应。 |
 
+## 使用场景
 
-## Use Cases
+### 1. 情绪分析
+利用评价数据分析用户对应用的看法，改进应用功能并提升用户满意度。
 
-### 1. Sentiment Analysis
-Analyze customer sentiments towards apps by leveraging review data to improve app features and user satisfaction.
+### 2. 市场研究
+通过分析评价和评分开展竞品研究，了解市场趋势与用户偏好。
 
-### 2. Market Research
-Conduct competitive analysis by examining reviews and ratings to gauge market trends and user preferences.
+### 3. 应用开发洞察
+从用户反馈中识别常见问题和期望的功能，为应用开发与更新提供参考。
 
-### 3. App Development Insights
-Use feedback from reviews to identify common issues and desired features, aiding in app development and updates.
+## 文件格式
 
-
-
-## File Formats
-
-The dataset is available in multiple formats:
-- **CSV** (included in this sample)
+数据集提供多种格式：
+- **CSV**（本样本包含）
 - **JSON**
 - **NDJSON**
 - **JSON Lines**
 - **Parquet**
-- **Compressed (.gz)**
+- **压缩文件（.gz）**
 
-## Delivery Options
+## 交付方式
 
-- **Email**
-- **API Download**
+- **电子邮件**
+- **API 下载**
 - **Webhook**
 - **Amazon S3**
 - **Google Cloud Storage**
@@ -69,26 +66,26 @@ The dataset is available in multiple formats:
 - **Snowflake**
 - **SFTP**
 
-## Update Frequency
+## 更新频率
 
-Datasets can be updated on various schedules:
-- **Once** (one-time delivery)
-- **Daily**
-- **Weekly**
-- **Monthly**
-- **Quarterly**
-- **Custom schedules**
+数据集支持多种更新计划：
+- **单次**（一次性交付）
+- **每日**
+- **每周**
+- **每月**
+- **每季度**
+- **自定义更新计划**
 
-## Data Enrichment
+## 数据丰富化
 
-Enhance your dataset with additional data points based on your specific requirements. Contact us for custom enrichment options.
+可根据你的具体需求，为数据集补充更多数据字段。如需定制数据丰富化方案，请联系我们。
 
-**[Get the full Google Play Store Reviews dataset](https://brightdata.com/products/datasets/google-play-store)**
+**[获取完整的 Google Play 商店评价数据集](https://www.bright.cn/products/datasets/google-play-store)**
 
 ---
 
-## Free Access for Researchers and NGOs
+## 面向研究人员和非政府组织的免费使用机会
 
-The Bright Initiative offers free access to **[Web Scraper APIs](https://brightdata.com/products/web-scraper)** and **[ready-to-use datasets](https://brightdata.com/products/datasets)** for academic researchers, NGOs, and NPOs working on environmental and social causes. 
+Bright Initiative 为从事环境与社会议题研究的学术研究人员、非政府组织（NGO）和非营利组织（NPO）免费提供 **[网页爬虫工具 API](https://www.bright.cn/products/web-scraper)** 和 **[即用型数据集](https://www.bright.cn/products/datasets)**。
 
-Apply for free access at [brightinitiative.com](https://brightinitiative.com).
+请访问 [brightinitiative.com](https://brightinitiative.com) 申请免费使用。
